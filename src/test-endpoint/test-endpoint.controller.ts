@@ -1,6 +1,8 @@
-import { Controller, Get } from "@nestjs/common";
+import {  Controller, Get, Post } from "@nestjs/common";
+import {  ApiTags } from "@nestjs/swagger";
 
 @Controller('test-endpoint')
+@ApiTags('test-endpoint')
 export class TestEndpointController {
   @Get()
   getTestEndpoint(): string {
