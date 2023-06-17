@@ -71,3 +71,14 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## TODOs
+
+- Organize the code better, its less than ideal ATM
+- Integrate create on start for working with clean db
+  - https://github.com/zendagin/fa-ocr-task/blob/f7b703fa9dedc3316a99884c8962d30007d57784/server/src/database/init.ts
+  - https://stackoverflow.com/questions/59107360/is-there-a-way-to-auto-create-a-databse-in-typeorm
+- Improve swagger and see if I can get autogen working
+- Add tests
+- Experiment with kafka and event patterns? Maybe host on a pi?
